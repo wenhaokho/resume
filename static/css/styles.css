@@ -14,11 +14,13 @@
 @font-face {
   font-family: "Avenir";
   src: url(/static/font/Avenir-Book.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "AvenirBold";
   src: url(/static/font/Avenir-Black.otf);
+  font-display: swap;
 }
 
 :root {

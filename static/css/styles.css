@@ -10,6 +10,17 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@font-face {
+  font-family: "Avenir";
+  src: url(/static/font/Avenir-Book.otf);
+}
+
+@font-face {
+  font-family: "AvenirBold";
+  src: url(/static/font/Avenir-Black.otf);
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -58,7 +69,7 @@
 
 body {
   margin: 0;
-  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -96,9 +107,7 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "AvenirBold";
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -111,7 +120,7 @@ h1,
 @media (min-width: 1200px) {
   h1,
   .h1 {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -122,7 +131,7 @@ h2,
 @media (min-width: 1200px) {
   h2,
   .h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -133,7 +142,7 @@ h3,
 @media (min-width: 1200px) {
   h3,
   .h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -144,18 +153,18 @@ h4,
 @media (min-width: 1200px) {
   h4,
   .h4 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 p {
@@ -11239,12 +11248,10 @@ p.lead {
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Avenir";
   /* text-transform: uppercase; */
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 #sideNav {

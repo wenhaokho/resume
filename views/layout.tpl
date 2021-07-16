@@ -9,6 +9,8 @@
     <title>{{ .Title }}</title>
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
 
+    <link rel="preload" href="/static/font/Avenir-Book.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="/static/font/Avenir-Black.otf" as="font" type="font/otf" crossorigin>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/static/css/styles.css" rel="stylesheet" />
     {{ block "css" . }}{{ end }}

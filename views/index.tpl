@@ -12,7 +12,7 @@ Wenhao Kho
     width: 42%;
     margin: 0 auto;
     padding-bottom: 50px;"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/img/wenhao.webp"
-                alt="..." /></span>
+                alt="Wenhao Profile" width="160" height="160" /></span>
         <h1 class="mb-0">
             Wenhao
             <span class="text-primary">Kho</span>

@@ -35,7 +35,7 @@
         <a class="navbar-brand js-scroll-trigger" href="./">
             <span class="d-block d-lg-none">{{ block "header" . }}{{ end }}</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="/static/img/wenhao.webp" width="160" height="160" alt="..." /></span>
+                    src="/static/img/wenhao.webp" width="160" height="160" alt="Wenhao Profile" /></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span

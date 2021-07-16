@@ -11,7 +11,7 @@ Wenhao Kho
         <span class="d-block d-lg-none" style="
     width: 42%;
     margin: 0 auto;
-    padding-bottom: 50px;"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/img/wenhao.jpg"
+    padding-bottom: 50px;"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/img/wenhao.webp"
                 alt="..." /></span>
         <h1 class="mb-0">
             Wenhao

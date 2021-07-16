@@ -34,7 +34,7 @@
         <a class="navbar-brand js-scroll-trigger" href="./">
             <span class="d-block d-lg-none">{{ block "header" . }}{{ end }}</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="/static/img/wenhao.jpg" alt="..." /></span>
+                    src="/static/img/wenhao.webp" alt="..." /></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -56,15 +56,15 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
         integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer></script>
     <!-- Core theme JS-->
-    <script src="/static/js/scripts.js"></script>
+    <script src="/static/js/scripts.js" defer></script>
     {{ block "js" . }}{{ end }}
 </body>
 
